@@ -92,7 +92,7 @@ describe "working with arrays" do
     describe "#length_of_array" do
       it 'takes in an argrument of an array and returns the length of the array' do
         length = length_of_array(@programming_languages)
-        expect(length).to eq(8)
+        expect(length).to eq(5)
       end
     end
   end
