@@ -1,16 +1,13 @@
 def instantiate_new_array
-[]
-
+	[]
 end 
 
 def array_with_two_elements
-	array = ["1", "2"]
-	
+	[1, 2]
 end 
 
 def first_element(array)
 	array[0]
-
 end 
 
 def third_element(array)
@@ -18,7 +15,7 @@ def third_element(array)
 end
 
 def last_element(array)
-	array.last 
+	array[-1]
 end 
 
 
@@ -31,5 +28,5 @@ def last_element_with_array_methods(array)
 end
 
 def length_of_array(array)
-	array.length
+	array.size
 end 
