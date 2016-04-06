@@ -3,7 +3,7 @@ def instantiate_new_array
 end
 
 def array_with_two_elements
-    my_new_array = [ "hello", 55]
+    my_new_array = [ "hello", "today"]
     return my_new_array
 end
 
