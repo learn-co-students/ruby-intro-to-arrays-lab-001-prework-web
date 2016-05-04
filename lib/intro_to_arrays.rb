@@ -44,6 +44,7 @@ end
 def length_of_array(lenght)
   lenght = @programming_languages.size
 end
+#return 8
 
 
 
