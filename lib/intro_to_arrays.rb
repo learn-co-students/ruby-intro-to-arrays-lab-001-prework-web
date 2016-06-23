@@ -1,5 +1,3 @@
-my_new_array = [1,2,3]
-
 def instantiate_new_array
 my_new_array
 print my_new_array
