@@ -33,7 +33,7 @@ def last_element(array)
 end
 
 def south_east_asia
-  array["Thailand", "Cambodia", "Singapore", "Myanmar"]
+  array = ["Thailand", "Cambodia", "Singapore", "Myanmar"]
 end
 
 def first_element_with_array_methods(first_country)
@@ -49,5 +49,5 @@ def programming_languages
 end
 
 def length_of_array(programming_languages)
-  programming_languages.count
+  programming_languages.size
 end
